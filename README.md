@@ -1,10 +1,57 @@
-# Enunciado para exercício inicial sobre Programação Dinâmica
+# Exercício inicial sobre Programação Dinâmica
+## Resultados
+<table>
+<thead>
+  <tr>
+    <th>Algoritmo</th>
+    <th>N4</th>
+    <th>N8</th>
+    <th>N16</th>
+    <th>N32</th>
+    <th>N128</th>
+    <th>N1.000</th>
+    <th>N10.000</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Fibo-Rec</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+  </tr>
+  <tr>
+    <td>Fibo</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Memoized-Fibo</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</tbody>
+</table>
 
-1. Dadas as três versões de implementação de Fibonacci abaixo:
-    
-    * implemente os algortimos;
-    * teste todos para os inteiros 4, 8, 16, 32; 
-    * teste os dois últimos também para os inteiro 128, 1000 e 10.000.
+## Enunciados
+### 1. Dadas as três versões de implementação de Fibonacci abaixo:
+  - implemente os algortimos;
+  - teste todos para os inteiros 4, 8, 16, 32; 
+  - teste os dois últimos também para os inteiro 128, 1000 e 10.000.
     
    ```java
    FIBO-REC (n)
@@ -39,9 +86,9 @@
 	devolva f [n]
    ```
     
-1. Monte uma tabela com os resultados das execuções acima. As linhas da tabela são os algoritmos implementados, as colunas os valores para testar e contabilizar.
+### 2. Monte uma tabela com os resultados das execuções acima. As linhas da tabela são os algoritmos implementados, as colunas os valores para testar e contabilizar.
 
-1. Resolva o problema da mochila conforme o enuciado em sala de aula. 
-   1. Ache uma solução que testa todas as combinações possíveis e seleciona a melhor, aplicando divisão-e-conquista ou não;
-   1. Contabilize o número de iterações;
-   1. Implemente e teste sua solução, para o caso exposto em aula e outros de mesmo porte (;-)).
+### 3. Resolva o problema da mochila conforme o enuciado em sala de aula. 
+  - Ache uma solução que testa todas as combinações possíveis e seleciona a melhor, aplicando divisão-e-conquista ou não;
+  - Contabilize o número de iterações;
+  - Implemente e teste sua solução, para o caso exposto em aula e outros de mesmo porte (;-)).
