@@ -1,5 +1,6 @@
 # Exercício inicial sobre Programação Dinâmica
 ## Resultados
+### Tempo em nanosegundos
 <table>
 <thead>
   <tr>
@@ -16,33 +17,33 @@
 <tbody>
   <tr>
     <td>Fibo-Rec</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td align="right">455.550</td>
+    <td align="right">4.000</td>
+    <td align="right">152.600</td>
+    <td align="right">15.285.200</td>
     <td align="center">-</td>
     <td align="center">-</td>
     <td align="center">-</td>
   </tr>
   <tr>
     <td>Fibo</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td align="right">2.500</td>
+    <td align="right">900</td>
+    <td align="right">1.100</td>
+    <td align="right">1.600</td>
+    <td align="right">4.100</td>
+    <td align="right">35.100</td>
+    <td align="right">299.500</td>
   </tr>
   <tr>
     <td>Memoized-Fibo</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td align="right">4.000</td>
+    <td align="right">1.800</td>
+    <td align="right">2.800</td>
+    <td align="right">5.000</td>
+    <td align="right">33.550</td>
+    <td align="right">209.700</td>
+    <td align="right">1.714.500</td>
   </tr>
 </tbody>
 </table>
