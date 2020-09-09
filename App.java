@@ -1,8 +1,11 @@
+import java.math.BigInteger;
+
 public class App
 {
 	public static void main(String[] args)
 	{
 		long start, end;
+		BigInteger result;
 		int[] n = {4, 8, 16, 32};
 		int[] n1 = {4, 8, 16, 32, 128, 1000, 10000};
 
@@ -11,9 +14,9 @@ public class App
 		for (int k : n)
 		{
 			start = System.nanoTime();
-			Exercicios.fiboRec(k);
+			result = Exercicios.fiboRec(k);
 			end = System.nanoTime();
-			System.out.printf("n%d\t= %d ns%n", k, (end - start));
+			System.out.printf("n%d\t= %d µs\t %d %n", k, (end - start) / 1000, result);
 		}
 
 		System.out.println();
@@ -22,9 +25,9 @@ public class App
 		for (int k : n1)
 		{
 			start = System.nanoTime();
-			Exercicios.fibo(k);
+			result = Exercicios.fibo(k);
 			end = System.nanoTime();
-			System.out.printf("n%d\t= %d ns%n", k, (end - start));
+			System.out.printf("n%d\t= %d µs\t %d %n", k, (end - start) / 1000, result);
 		}
 
 		System.out.println();
@@ -32,11 +35,11 @@ public class App
 
 		for (int k : n1)
 		{
-			long[] f = new long[k + 1];
+			BigInteger[] f = new BigInteger[k + 1];
 			start = System.nanoTime();
-			Exercicios.memoizedFibo(f, k);
+			result = Exercicios.memoizedFibo(f, k);
 			end = System.nanoTime();
-			System.out.printf("n%d\t= %d ns%n", k, (end - start));
+			System.out.printf("n%d\t= %d µs\t %d %n", k, (end - start) / 1000, result);
 		}
 	}
 }
