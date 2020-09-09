@@ -1,6 +1,6 @@
 import java.math.BigInteger;
 
-public class Exercicios
+public class Fibonacci
 {
 
 	/*

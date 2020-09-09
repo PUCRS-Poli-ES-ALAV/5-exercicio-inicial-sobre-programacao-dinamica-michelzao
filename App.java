@@ -14,7 +14,7 @@ public class App
 		for (int k : n)
 		{
 			start = System.nanoTime();
-			result = Exercicios.fiboRec(k);
+			result = Fibonacci.fiboRec(k);
 			end = System.nanoTime();
 			System.out.printf("n%d\t= %d µs\t %d %n", k, (end - start) / 1000, result);
 		}
@@ -25,7 +25,7 @@ public class App
 		for (int k : n1)
 		{
 			start = System.nanoTime();
-			result = Exercicios.fibo(k);
+			result = Fibonacci.fibo(k);
 			end = System.nanoTime();
 			System.out.printf("n%d\t= %d µs\t %d %n", k, (end - start) / 1000, result);
 		}
@@ -37,7 +37,7 @@ public class App
 		{
 			BigInteger[] f = new BigInteger[k + 1];
 			start = System.nanoTime();
-			result = Exercicios.memoizedFibo(f, k);
+			result = Fibonacci.memoizedFibo(f, k);
 			end = System.nanoTime();
 			System.out.printf("n%d\t= %d µs\t %d %n", k, (end - start) / 1000, result);
 		}
