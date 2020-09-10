@@ -4,6 +4,25 @@ public class App
 {
 	public static void main(String[] args)
 	{
+		//testFibo();
+		testMochila();
+	}
+
+	private static void testMochila()
+	{
+		int c = 165;
+		int[] pesos = {23, 31, 29, 44, 53, 38, 63, 85, 89, 82};
+		int[] valores = {92, 57, 49, 68, 60, 43, 67, 84, 87, 72};
+		System.out.println(Mochila.mochilaBruta(pesos.length, c, pesos, valores));
+
+		c = 190;
+		pesos = new int[]{56, 59, 80, 64, 75, 17};
+		valores = new int[]{50, 50, 64, 46, 50, 5};
+		System.out.println(Mochila.mochilaBruta(pesos.length, c, pesos, valores));
+	}
+
+	private static void testFibo()
+	{
 		long start, end;
 		BigInteger result;
 		int[] n = {4, 8, 16, 32};
